@@ -1,0 +1,16 @@
+image: node:16.13.1-alpine
+
+pages:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+    - rm ./public -rf
+    - mv ./build ./public
+    - touch ./public/_redirects
+    - echo "/* /index.html 200" >> ./public/_redirects
+  artifacts:
+    paths:
+      - public
+  only:
+  - main

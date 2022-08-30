@@ -1,0 +1,34 @@
+.toolbar {
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-width: 5px;
+  border-radius: 10px;
+  border: black;
+}
+.toolbar .content {
+  height: 70px;
+  background: black;
+}
+
+.toggle {
+  width: 30px;
+  height: 30px;
+}
+
+.tool {
+  position: fixed;
+}
+
+.contentParent {
+  margin: 0px;
+  overflow: hidden;
+  transition: height ease 0.4s;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}/*# sourceMappingURL=Toolbar.css.map */

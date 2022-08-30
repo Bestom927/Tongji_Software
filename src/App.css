@@ -1,0 +1,10 @@
+.app-container {
+  width: 100%
+}
+
+body { 
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  padding: 0;
+  margin: 0;
+}

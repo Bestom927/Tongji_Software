@@ -1,0 +1,83 @@
+#software-demo{
+    width: 100%;
+	height: 90vh;
+    margin-top: 0vh;
+    position : relative;
+}
+
+/* 按钮盒子 */
+.software-button-box{
+	position: absolute;
+	width: 100%;
+	margin-top: 28vw;
+}
+
+
+#btn-changeLast{
+	position: relative;
+	width: 2.6vmax; 
+    height: 2.6vmax; 
+    border-radius: 2.6vmax;  
+	text-align: center;
+	font-size: 2vmin;
+	color: white;
+	border: 0;
+	margin-left: 42vw;
+}
+
+
+#btn-changeNext{
+	position: relative;
+	width: 2.6vmax; 
+    height: 2.6vmax; 
+    border-radius: 2.6vmax;  
+	text-align: center;
+	font-size: 2vmin;
+	color: white;
+	border: 0;
+	margin-left: 1vw;
+}
+
+/* 内容盒子 */
+.software-content-box{
+	width: 80vw;
+	height: 50vh;
+	margin-left: 10vw;
+	position: relative;
+}
+
+
+/*蓝盒子*/
+.software-blue-box{
+	position: absolute;
+	background-color: #0067EC;
+	width: 28vw;
+	height:26vw;
+	margin-top: 2vh;
+	margin-left: 3vw;
+	border-radius: 2vmin 2vmin 2vmin 2vmin;
+}
+
+/*白盒子*/
+.software-white-box{
+	background-color: white;
+	position: absolute;
+	box-shadow: 0 4px 16px 1px rgb(0 0 0 / 20%);
+  	padding: 11px 8px 12.5px;
+	border-radius: 2vh 2vh 2vh 2vh;
+	float: left;
+	margin-top: 5vh;
+	width: 40vw;
+	height:24vw;
+	margin-left:36vw;
+}
+
+.software-white-box-content{
+	padding-left: 1.6vw;
+	padding-top: 3.5vh;
+}
+
+.software-box-content-detail{
+	font-size:1.2vmin;
+	margin-top: 1.5vh;
+}

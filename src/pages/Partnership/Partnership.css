@@ -1,0 +1,65 @@
+.teamTop {
+    text-align: center;
+}
+
+.teamImg {
+    text-align: center;
+    display: inline-block;
+}
+
+.imgWord1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 100px;
+    display: inline-block;
+    width: 43%;
+    text-align: center;
+    position: absolute;
+    top: 700px;
+}
+
+.imgWord2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 48px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 730px;
+}
+
+.title {
+    color: #0072F9;
+    font-size: 48px;
+    padding-left: 8%;
+}
+
+.blueword {
+    color: #0072F9;
+}
+
+.content {
+    font-size: 20px;
+    padding-left: 8%;
+    padding-right: 25%;
+    display: inline-block;
+}
+
+.content1 {
+    font-size: 20px;
+    padding-left: 8%;
+    padding-right: 35%;
+    display: inline-block;
+    color: #0072F9;
+}
+
+.teamImg2 {}
+
+.img {
+    padding-left: 8%;
+}
+
+.imgComment {
+    padding-left: 8%;
+}

@@ -1,0 +1,42 @@
+#greyGround{
+    height: 60vh;
+    border-radius: 2vh;
+    background: #EEF3F5;
+}
+.col_cas_system{
+    text-align: center;
+    margin:1vw;
+    padding:1vw;
+}
+.white-box{
+	background-color: white;
+	position: absolute;
+	box-shadow: 0 4px 16px 1px rgb(0 0 0 / 12%);
+  	padding: 20px 8px 12.5px;
+	border-radius: 2vh ;
+	float: left;
+}
+
+.white-box-content{
+	padding-left: 1.6vw;
+	padding-top: 2vh;
+}
+
+.box-content-detail-sys{
+	font-size:1.6vmin;
+	margin-top: 0;
+}
+
+#problem_bg1::after{
+    content: "";
+	width: 55vw;
+	height: 35vw;
+	position: absolute;
+	z-index: -1;
+	margin-top: -25vh;
+	background-color: #0067EC;
+	border-radius:50vh ;
+	right: -10vw;
+    transform: rotate(45deg);
+
+}

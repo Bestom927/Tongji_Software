@@ -1,0 +1,18 @@
+
+/*¶¥²¿ÎÄ×Ö*/
+.title-info{
+	text-align: center;
+	height: 15vh;
+	font-size: 5vmin;
+	font-weight: bolder;
+	margin: 0 auto;
+	padding-top: 4vh;
+}
+
+.title-content{
+	text-align: center;
+	min-height: 12vh;
+	font-size: 1.5vmin;
+	font-weight: normal;
+	margin: 0 auto;
+}

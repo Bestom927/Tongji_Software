@@ -1,0 +1,28 @@
+#navbar{
+    height: 100px;
+    background-color: #0072F9;
+    color: white !important;
+   
+}
+
+#coun{
+    color: white !important;
+   
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    color: white !important;
+  }
+
+
+  #logo{
+    height: 50px;
+    margin-right: 80px;
+  }
+
+
+  .dropdown-item{
+    color: #0072F9 ;
+
+  }

@@ -1,0 +1,13 @@
+#problem_bg2::after{
+    content: "";
+	width: 55vw;
+	height: 35vw;
+	position: absolute;
+	z-index: -1;
+	margin-top: -28vh;
+	background-color: #0067EC;
+	border-radius:50vh ;
+	left: -8vw;
+    transform: rotate(45deg);
+
+}

@@ -1,0 +1,421 @@
+.communication{
+    background-color: white;
+    padding: 0;
+	margin: 0;
+}
+
+/* 标题 */
+.edu-title{
+    background-image: url(https://static.igem.wiki/teams/4272/wiki/education-photo1.png);
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size: 70% 100%;
+    height: 70vh;
+    width: 100vw;
+}
+
+#edu-bigtitle{
+    font-size: 3.5vw;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px grey;
+    padding-left: 30vw;
+    padding-top: 33vh;
+    width: 15vw;
+    height: auto;
+}
+
+#edu-normaltitle{
+    font-size: 3.5vmin;
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px grey;
+    padding-left: 60vw;
+    margin-top: 1vh;
+    width: 82vw;
+}
+
+/*页面盒子*/
+.edu-page-box{
+    height: 120vh;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+	z-index: 1;
+}
+
+.edu-page-box::after{
+    content: "";
+    top: 90vh;
+    width: 100vh;
+	height: 120vh;
+    position: absolute;
+	z-index: 1;
+	background-color: #0067EC;
+    display: block;
+    border-radius:100vh 100vh 100vh  100vh ;
+    left: 70vw;
+    filter: blur(0.3vmin);
+}
+
+
+/*教育专栏卡通图案*/
+.edu-Img{
+    position: absolute;
+    z-index: 8;
+}
+
+#education-picture1 img{
+    width: 21vmin;
+    height:15vmin;
+}
+
+#education-picture2 img{
+    width: 12vmin;
+    height: 19vmin;
+}
+#education-picture3 img{
+    width: 10vmin;
+    height: 12vmin;
+}
+#education-picture4 img{
+    width: 11vmin;
+    height: 15vmin;
+}
+#education-picture5 img{
+    width: 12vmin;
+    height: 14vmin;
+}
+#education-picture6 img{
+    width: 14vmin;
+    height: 11vmin;;
+}
+#education-picture7 img{
+    width: 16vmin;;
+    height: 18vmin;;
+}
+
+/*内容格式*/
+.edu-content-box{
+    padding-left: 10vw;
+    /* background-color: pink; */
+    margin-left: 10vw;
+}
+
+
+.edu-content{
+    z-index: 100;
+    position: relative;
+    font-size: 1.6vmin;
+}
+
+
+/*communication模块*/
+.edu-communication{
+    width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	z-index: 1;
+    margin-top: 5vh;
+}
+
+.edu-communication::after{
+    content: "";
+    margin-top: 15vh;
+    width: 60vh;
+	height: 90vh;
+    position: absolute;
+	z-index: 1;
+	background-color: #0067EC;
+    display: block;
+    border-radius:0 60vh 60vh 0 ;
+    left: -15vw;
+    filter: blur(0.3vmin);
+}
+
+#edu-communication-title{
+    color: #0072F9;
+    font-size: 3.5vmin;
+    font-weight: 600;
+    padding-left: 15vw;
+    padding-top: 6vh;
+}
+
+
+/*白盒子*/
+.edu-white-box{
+	background-color: white;
+	position: absolute;
+	box-shadow: 0 4px 16px 1px rgb(0 0 0 / 20%);
+  	padding: 11px 8px 12.5px;
+	border-radius: 2vh 2vh 2vh 2vh;
+    z-index: 5;
+}
+
+#edu-whitebox-tit{
+    text-align: center;
+    color:#0072F9;
+    font-size: 2.5vmin;
+    font-weight: 800;
+}
+
+
+.edu-box-detail{
+    margin-left: 6vw;
+    width: 56vw;
+    height: 36vh;
+}
+
+.edu-box-detail1{
+    border-bottom :solid 2px  #0072F9;
+    border-right: solid 2px  #0072F9;
+    
+}
+
+.edu-box-detail2{
+    float: left;
+    border-bottom :solid 2px  #0072F9;
+}
+
+.edu-box-detail3{
+    float: left;
+    border-right: solid 2px  #0072F9;
+}
+
+.edu-box-detail4{
+    float: left;
+}
+
+.edu-content-detail{
+    width: 28vw;
+    height: 16vh;
+    float: left;
+}
+
+.edu-circle-white-box{
+    background-color: white;
+	position: absolute;
+	box-shadow: 0 4px 16px 1px rgb(0 0 0 / 8%);
+  	padding: 11px 8px 12.5px;
+	border-radius: 12vmin 12vmin 12vmin 12vmin;
+    z-index: 6;
+    width:12vmin;
+    height:12vmin;
+    padding-top:2.8vh;
+    padding-left:1.4vw;
+}
+
+.edu-circle-white-box img{
+    width: 6.5vmin;
+    height: 6.5vmin;
+}
+
+.whitebox-detail-title{
+    font-size: 2.5vmin;
+    color: black;
+    font-weight: 700;
+}
+
+.whitebox-detail-text{
+    width: 16vw;
+    height: 10vh;
+    font-size: 1.4vmin;
+    font-weight: 600;
+    color: #AEAEAE;
+    position: absolute;
+    z-index: 100;
+}
+
+
+/*questionaire*/
+
+.common-title{
+    margin-left: 15vw;
+    color:#0072F9;
+    font-size: 2.8vmin;
+    font-weight: 800;
+}
+
+#edu-questionaire1{
+    left:46vw;
+    margin-top: -30vh;
+}
+
+#edu-questionaire1 img{
+    width: 49vmin;
+    height: 28vmin;
+}
+
+#edu-questionaire2{
+    left:28vw;
+    margin-top: 5vh;
+}
+
+#edu-questionaire2 img{
+    width: 60vmin;
+    height: 20vmin;
+}
+
+.edu-picture-remark{
+    z-index: 8;
+    position: absolute;
+    font-size: 0.5vw;
+}
+
+#edu-picture1-remark{
+    margin-left: 46vw;
+    margin-top: 1vh;
+}
+
+#edu-picture2-remark{
+    margin-left: 32vw;
+    margin-top: 28vh;
+}
+
+/*lecture*/
+#edu-lecture1{
+    float: left;
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+
+#edu-lecture1 img{
+    width: 47vmin;
+    height: 35vmin;
+}
+
+#edu-lecture2{
+    float: left;
+    margin-left: 40vw;
+    margin-top: 4vh;
+}
+
+#edu-lecture2 img{
+    width: 76vmin;
+    height: 36vmin;
+}
+
+#edu-picture3-remark{
+    margin-left: 16vw;
+    margin-top: 44vh;
+    width: 47vmin;
+}
+
+#edu-picture4-remark{
+    margin-left: 50vw;
+    margin-top: 44vh;
+    width: 76vmin;
+}
+
+.edu-lecture-swipper{
+    width: 81vmin;
+    height: 68vmin;
+    margin-left: 15vw;
+    margin-top: 50vh;
+    border-radius: 2vmin 2vmin 2vmin 2vmin;
+}
+
+#edu-picture5-remark{
+    margin-left: 28vw;
+    margin-top: 0.5vh;
+}
+
+/*game*/
+.edu-game-swipper{
+    width: 120vmin;
+    height: 60vmin;
+    margin-left: 16vw;
+    margin-top: 5vh;
+    border-radius: 2vmin 2vmin 2vmin 2vmin;
+}
+
+#edu-video{
+    margin-left: 40vw;
+    margin-top: 2vh;
+    box-shadow: 0 4px 16px 1px rgb(0 0 0 / 4%);
+    padding: 8px 5px 9.5px;
+    border-radius: 5vmin 5vmin 5vmin 5vmin;
+}
+
+#edu-video img{
+    width: 67vmin;
+    height: 56vmin;
+}
+
+
+/*brochure*/
+#edu-brochure1{
+    margin-left: 15vw;
+    margin-top: 3vh;
+}
+
+#edu-brochure1 img{
+    width: 54vmin;
+    height: 54vmin;
+}
+
+#edu-brochure2{
+    margin-left: 45vw;
+    margin-top: 10vh;
+    box-shadow: 0 4px 16px 1px rgb(0 0 0 / 4%);
+    padding: 5px 2px 7.5px;
+    border-radius: 5vmin 5vmin 5vmin 5vmin;
+}
+
+#edu-brochure2 img{
+    width: 18vmin;
+    height: 26vmin;
+}
+
+#edu-brochure3{
+    margin-left: 50vw;
+    margin-top: 18vh;
+    box-shadow: 0 4px 16px 1px rgb(0 0 0 / 4%);
+    padding: 5px 2px 7.5px;
+    border-radius: 5vmin 5vmin 5vmin 5vmin;
+}
+
+#edu-brochure3 img{
+    width: 37vmin;
+    height: 26vmin;
+}
+
+#edu-brochure4{
+    margin-left: 67vw;
+    margin-top: 30vh;
+    box-shadow: 0 4px 16px 1px rgb(0 0 0 / 4%);
+    padding: 5px 2px 7.5px;
+    border-radius: 5vmin 5vmin 5vmin 5vmin;
+}
+
+#edu-brochure4 img{
+    width: 18vmin;
+    height: 26vmin;
+}
+
+#edu-picture7-remark{
+    margin-top: 64vh;
+    margin-left: 36vw;
+}
+
+
+#edu-bk1{
+    float:left;
+    position: relative;
+}
+
+#edu-bk1 img{
+    width: 67vmin;
+    height: 56vmin;
+}
+
+#edu-bk2{
+    float: right;
+    position: relative;
+    margin-top: 16vh;
+}
+
+#edu-bk2 img{
+    width: 63vmin;
+    height: 40vmin;
+}

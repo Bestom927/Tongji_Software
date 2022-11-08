@@ -1,8 +1,11 @@
 import React from 'react'
+import CustomizedTimeline from '../../components/Timeline/Timeline'
 
 const Notebook = () => {
   return (
-    <div>Notebook</div>
+    <div>
+      <CustomizedTimeline></CustomizedTimeline>
+    </div>
   )
 }
 

@@ -1,0 +1,24 @@
+#footer{
+    width: 94%;
+    height:100px;
+    margin-left: 3%;
+}
+
+#title{
+    margin-left: 5%;
+    font-size:50px;
+    font-weight: 500;
+    font-family: Inter;
+    color:#0072F9;
+}
+
+#contact_info{
+    height:150px;
+    background-color: #0072F9;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#contact_info a{
+    color: blueviolet;
+}
